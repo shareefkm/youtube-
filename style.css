@@ -1,0 +1,316 @@
+.main{
+    margin: 10px;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: white;
+}
+.btn{
+    padding: 8px;
+}
+.btn div{
+    width: 27px;
+    height: 1px;
+    background-color: black;
+    margin: 6px 0;
+}
+.btn:hover{
+    background: rgb(224, 225, 230);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;  
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo span{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -11px;
+    font: menu;
+    font-size: 10px;
+}
+.searchBar{
+    margin-left: 140px;
+    padding: 7px;
+    display: flex;
+}
+.searchBar input{
+    font-size: 17px;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+    border: solid 1px #e1dcdc;
+    width: 500px;
+    height: 20px;
+    padding: 7px; 
+}
+.searchBar input:focus{
+    border: 1px solid rgb(31, 111, 202);
+    border-radius: 25;
+    outline: none; 
+}
+.searchBarBtn{
+    border-radius: 0 25px 25px 0;
+    border: solid 1px #e1dcdc;
+    width: 65px;
+    background: #f4f7f9;
+}
+.searchBarBtn:hover{
+    background-color: rgb(224, 225, 230);
+    cursor: pointer;
+}
+.searchBarBtn:hover:after{
+    content: attr(data-title);
+    background: #787573;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.searchBar i{
+    font-size: 20px;
+    color: #8f8c8a;
+    font-weight: 600;
+}
+.schVoice{
+    padding: 10px;
+    background: #f4f7f9;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.schVoice:hover{
+    cursor: pointer;
+    background-color: rgb(224, 225, 230);
+}
+.icons{
+    display: flex;
+}
+.schVoice:hover::after{
+    content: attr(data-title);
+    background: #787573;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font: -webkit-control;
+}
+.vIcon{
+    margin-left: 200px;
+    border-radius: 50%;
+}
+.vIcon img{
+    width: 23px;
+    margin: 5px;
+}
+.vIcon:hover{
+    cursor: pointer;
+    background-color: rgb(224, 225, 230);
+    border-radius: 50%;
+}
+.vIcon:hover:after{
+    content: attr(data-title);
+    background: #787573;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font: -webkit-control;
+}
+.bIcon{
+    margin-left: 35px;
+    font-size: 20px;
+    margin-top: 4px;
+    padding: 6px;
+}
+.bIcon:hover{
+    cursor: pointer;
+    background-color: rgb(224, 225, 230);
+    border-radius: 50%;
+}
+.bIcon:hover::after{
+    content: attr(data-title);
+    background: #787573;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font: -webkit-control;
+}
+.prfpic{
+    width: 35px;
+    height: 35px;
+    background: #787573;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.prfpic:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    position: absolute;
+    margin-top: 61px;
+}
+.sidBar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    overflow: scroll;
+}
+.parBar{
+    border-bottom: 1px solid #e1dcdc;
+}
+.titlsH{
+    display: flex;
+    font: caption;
+    background:rgb(224, 225, 230);
+    border-radius: 15px;
+}
+.titlsH i{
+    margin: 14px;
+}.titlsH p{
+    margin-left: 15px;
+}
+.titlsH:hover{
+    cursor: pointer;
+    background: rgb(206, 206, 211);
+}
+.titls{
+    display: flex;
+    font: caption;
+}
+.titls i{
+    margin: 11px;
+}
+.titls img{
+    height: 20px;
+    margin: 10px;
+}
+.titls p{
+    margin: 15px;
+}
+.titls:hover{
+    cursor: pointer;
+    background: rgb(223, 224, 228);
+    border-radius: 15px;
+}
+.parBar p{
+    font: caption;
+    margin-left: 14px;
+}
+.vidBar{
+    margin-left: 240px;
+}
+.subBar{
+    position: fixed;
+    background: white;
+}
+.subBar span{
+    margin: 7px;
+    background: rgb(223, 224, 228);
+    padding: 9px 13px;
+    border-radius: 10px;
+    font: caption;
+    font-size: 15px;
+}
+#all{
+    background: black;
+    color: white;
+}
+.subBar span:hover{
+    cursor: pointer;
+}
+.videos{
+    display: flex;
+    margin-top: 15px;
+}
+.links{
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 30%;
+    transition: transform 0.2s;
+}
+.links:hover{
+    transform: scale(1.2);
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    float: left;
+}
+iframe{
+    border-radius: 20px;
+}
+.links img{
+    width: 35px;
+    float: left;
+    border-radius: 50%;
+}
+.links p{
+    margin-left: 37px;
+    font: menu;
+    font-weight: 500;
+    color: gray;
+}.short{
+    border-top: 3px solid rgb(223, 224, 228);
+}
+.sBar{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 25px;
+}
+.sBar p{
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.sBar i{
+    margin-left: auto;
+    padding: 10px;
+}
+.sBar i:hover{
+    cursor: pointer;
+    background: rgb(223, 224, 228);
+    border-radius: 50%;
+}
+.sBar :hover::after{
+    content: attr(data-title);
+    background: #787573;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: -100px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font: -webkit-control;
+}
+
+
+
+
+
